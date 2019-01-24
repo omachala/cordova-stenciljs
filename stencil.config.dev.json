@@ -1,0 +1,13 @@
+{
+  "config": {
+    "globalStyle": "src/global/app.css",
+    "globalScript": "src/global/app.ts",
+    "outputTargets": [
+      {
+        "type": "www",
+        "dir": "temp",
+        "resourcesUrl": "/build/app/"
+      }
+    ]
+  }
+}
