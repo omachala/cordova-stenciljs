@@ -131,4 +131,4 @@ function createComponentOnReadyPrototype(win, namespace, HTMLElementPrototype) {
 
   init(win, doc, namespace, fsNamespace, resourcesUrl, appCore, appCoreSsr, appCorePolyfilled, hydratedCssClass, components);
 
-  })(window, document, "App","app","/build/app/","app.core.js","es5-build-disabled.js","hydrated","app-home,app-profile,app-root,stencil-route,stencil-route-link,stencil-route-switch,stencil-router",HTMLElement.prototype);
+  })(window, document, "App","app","/build/app/","app.core.js","es5-build-disabled.js","hydrated","app-home,app-profile,app-root,com-day-carousel,stencil-route,stencil-route-link,stencil-route-switch,stencil-router",HTMLElement.prototype);

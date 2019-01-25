@@ -17,6 +17,8 @@ export class AppHome {
           Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
         </p>
 
+        <com-day-carousel></com-day-carousel>
+
         <stencil-route-link url='/profile/stencil'>
           <button>
             Profile page

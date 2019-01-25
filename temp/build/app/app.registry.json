@@ -24,6 +24,12 @@
       },
       "encapsulation": "shadow"
     },
+    "com-day-carousel": {
+      "bundleIds": {
+        "$": "app-home"
+      },
+      "encapsulation": "shadow"
+    },
     "stencil-route": {
       "bundleIds": {
         "$": "app-root"

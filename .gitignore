@@ -2,6 +2,7 @@ dist/
 !www/favicon.ico
 www/
 plugins/
+temp/
 
 *~
 *.sw[mnpcod]

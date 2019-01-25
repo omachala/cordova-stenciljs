@@ -10,5 +10,15 @@ export const config: Config = {
       type: "www",
       resourcesUrl: "build/app/"
     }
+  ],
+  copy: [
+    {
+      src: '../node_modules/@ionic/core',
+      dest: 'vendor/ionic'
+    },
+    {
+      src: 'gsap/ThrowPropsPlugin.js',
+      dest: 'vendor/gsap/ThrowPropsPlugin.js',
+    }
   ]
 };

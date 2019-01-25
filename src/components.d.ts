@@ -28,6 +28,9 @@ export namespace Components {
 
   interface AppRoot {}
   interface AppRootAttributes extends StencilHTMLAttributes {}
+
+  interface ComDayCarousel {}
+  interface ComDayCarouselAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -35,12 +38,14 @@ declare global {
     'AppHome': Components.AppHome;
     'AppProfile': Components.AppProfile;
     'AppRoot': Components.AppRoot;
+    'ComDayCarousel': Components.ComDayCarousel;
   }
 
   interface StencilIntrinsicElements {
     'app-home': Components.AppHomeAttributes;
     'app-profile': Components.AppProfileAttributes;
     'app-root': Components.AppRootAttributes;
+    'com-day-carousel': Components.ComDayCarouselAttributes;
   }
 
 
@@ -62,16 +67,24 @@ declare global {
     new (): HTMLAppRootElement;
   };
 
+  interface HTMLComDayCarouselElement extends Components.ComDayCarousel, HTMLStencilElement {}
+  var HTMLComDayCarouselElement: {
+    prototype: HTMLComDayCarouselElement;
+    new (): HTMLComDayCarouselElement;
+  };
+
   interface HTMLElementTagNameMap {
     'app-home': HTMLAppHomeElement
     'app-profile': HTMLAppProfileElement
     'app-root': HTMLAppRootElement
+    'com-day-carousel': HTMLComDayCarouselElement
   }
 
   interface ElementTagNameMap {
     'app-home': HTMLAppHomeElement;
     'app-profile': HTMLAppProfileElement;
     'app-root': HTMLAppRootElement;
+    'com-day-carousel': HTMLComDayCarouselElement;
   }
 
 
